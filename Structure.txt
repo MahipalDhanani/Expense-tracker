@@ -1,0 +1,18 @@
+src/
+  components/        # Reusable UI components
+    Navbar.js
+    ExpenseForm.js
+    ExpenseList.js
+    BudgetSummary.js
+    Charts.js
+  features/          # Redux slices for state management
+    expenses/
+      expensesSlice.js
+    budgets/
+      budgetsSlice.js
+  pages/             # Main pages
+    Home.js
+    Dashboard.js
+  utils/             # Utility functions
+  App.js             # Main app component
+  index.js           # Entry point
